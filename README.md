@@ -1,6 +1,8 @@
 # International Debt with The World Bank Data
 Analyzing international debt(in USD) data collected by [The World Bank](https://datacatalog.worldbank.org/dataset/international-debt-statistics) from 1970-2019
 
+## Analysis Questions
+
 
 ## Tableau Visualizations
 [Tableau Public Workbook](https://public.tableau.com/profile/diannejardinez#!/vizhome/InternationalDebtwithTheWorldBankData/Map?publish=yes)
