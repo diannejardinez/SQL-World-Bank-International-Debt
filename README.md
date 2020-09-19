@@ -5,3 +5,6 @@ Analyzing international debt(in USD) data collected by [The World Bank](https://
 ## Tableau Visualizations
 [Tableau Public Workbook](https://public.tableau.com/profile/diannejardinez#!/vizhome/InternationalDebtwithTheWorldBankData/Map?publish=yes)
 
+
+![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map.png)
+Countries in the international debt dataset
