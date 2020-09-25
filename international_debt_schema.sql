@@ -55,6 +55,4 @@ CREATE TABLE international_debt (
 	year_2016 DATE,
 	year_2017 DATE,
 	year_2018 DATE,
-	year_2019 DATE,			
-
-);
+	year_2019 DATE);
