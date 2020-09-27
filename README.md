@@ -13,5 +13,5 @@ Analyzing international debt(in USD) data collected by [The World Bank](https://
 ![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map.png)
 > Countries in the international debt dataset
 
-![](Tableau-Map_country-debt)
+![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map_country-debt.png)
 > Total Debt for each country
