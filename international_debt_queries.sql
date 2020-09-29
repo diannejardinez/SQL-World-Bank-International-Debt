@@ -11,8 +11,12 @@ HAVING COUNT(indicator_name) != 0
 ORDER BY number_of_debt_names DESC;
 
 -- What are type of debts in 2019
+SELECT indicator_name, year_2019 FROM international_debt
+GROUP BY indicator_name
+ORDER BY year_2019 DESC;
 
 -- What are the top 10 type of debts in 2019 for each country
+
 
 
 --  Total Debt
@@ -26,3 +30,7 @@ SELECT country_name, SUM(year_1970+year_1971+year_1972+year_1973+year_1974+year_
 AS total_debt FROM international_debt
 GROUP BY country_name
 ORDER BY total_debt DESC;
+
+
+
+
