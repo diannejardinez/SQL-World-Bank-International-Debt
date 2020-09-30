@@ -3,7 +3,7 @@
 CREATE TABLE international_debt (
 	country_id SERIAL PRIMARY KEY,
 	country_name VARCHAR(30),
-	country_code VARCHAR(30),
+	country_code VARCHAR(3),
 	indicator_name VARCHAR(150),
 	indicator_code VARCHAR(30),
 	year_1970 BIGINT,
