@@ -1,8 +1,38 @@
 -- Unique countries
-SELECT DISTINCT country_name FROM international_debt;
+SELECT DISTINCT country_name FROM international_debt
+ORDER BY country_name ;
 
---  Number of unique countries
-SELECT COUNT(DISTINCT country_name) AS total_countries FROM international_debt;
+-- Delete 
+-- IDA only (International Development Association (IDA))
+-- Bosnia and Herzegovina, East Asia & Pacific(excluding high income)
+-- Europe & Central Asia (excluding high income), Latin America & Caribbean (excluding high income)
+--  Middle East & North Africa (excluding high income)
+-- Sub-Saharan Africa (excluding high income)
+DELETE FROM international_debt
+WHERE country_name IN ('IDA only','Bosnia and Herzegovina', 'East Asia & Pacific (excluding high income)',
+ 'Europe & Central Asia (excluding high income)', 'Latin America & Caribbean (excluding high income)',
+ 'Middle East & North Africa (excluding high income)','Sub-Saharan Africa (excluding high income)');
+
+
+-- Group/Create new table with income
+-- Low & middle income, low income, lower middle income, middle income, upper iddle income
+SELECT * INTO income_table
+FROM international_debt
+WHERE country_name IN ('Low & middle income', 'Low income', 'Lower middle income', 'Middle income', 'Upper middle income');
+
+DELETE FROM international_debt
+WHERE country_name IN ('Low & middle income', 'Low income', 'Lower middle income', 'Middle income', 'Upper middle income');
+
+
+-- Create new table with 
+-- Least developed countries: UN classification
+SELECT * INTO least_developed
+FROM international_debt
+WHERE country_name IN ('Least developed countries: UN classification');
+
+DELETE FROM international_debt
+WHERE country_name IN ('Least developed countries: UN classification');
+
 
 -- What are type of debts and number of occurence
 SELECT indicator_name, COUNT(indicator_name) AS number_of_debt_names FROM international_debt
@@ -10,13 +40,20 @@ GROUP BY indicator_name
 HAVING COUNT(indicator_name) != 0
 ORDER BY number_of_debt_names DESC;
 
+
 -- What are type of debts in 2019
 SELECT indicator_name, year_2019 FROM international_debt
+WHERE year_2019 IS NOT NULL
 GROUP BY indicator_name, year_2019
 ORDER BY year_2019 DESC;
 
--- What are the top 10 type of debts in 2019 for each country
 
+-- What are the top 10 type of debts in 2019 for each country
+SELECT country_name, indicator_name, year_2019 FROM international_debt
+WHERE year_2019 IS NOT NULL
+GROUP BY country_name, indicator_name, year_2019
+ORDER BY year_2019 DESC
+LIMIT 10;
 
 
 --  Total Debt
