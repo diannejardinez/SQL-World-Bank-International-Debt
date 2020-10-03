@@ -21,11 +21,18 @@ with SQL queries and visualizing analysis with Tableau
 ![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map.png)
 > Countries in the international debt dataset
 
-![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map_country-debt.png)
-> Total Debt for each country
+<!-- ![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map_country-debt.png) -->
+<!-- > Total Debt for each country -->
 
-## Analysis
+## SQL Analysis
 **Income Level**
 > Income levels were Low income, lower middle income,  middle income, upper middle income
-- "PPG, Private Creditors (AMT, Current US$)" was the top type of debt owed with middle income being affected the most in 2019 - [Source: The World Bank](https://datacatalog.worldbank.org/ppg-private-creditors-amt-current-us-0)
+- "PPG, Private Creditors (AMT, Current US$)" was the top type of debt owed with middle income being affected the most in 2019 - [PPG defined Source: The World Bank](https://datacatalog.worldbank.org/ppg-private-creditors-amt-current-us-0)
 - Middle Income Countries have per capita gross national income of US$1,026 to $12,475 (2011) - [Source: The World Bank](https://www.worldbank.org/en/country/mic/overview#:~:text=The%20world's%20Middle%20Income%20Countries,%244%2C046%20and%20%2412%2C535%20(2021))
+
+**Countries**
+> Only 122 countries in dataset out of 195 countries
+- "PPG, official creditors (DIS, current US$)" was the top type of debt owed in 2019 - [PPG Defined Source: The World Bank](https://datacatalog.worldbank.org/search?query=%20ppg-official-creditors-dis-current-us-1)
+- Mexico has the highest debt and Timor-Leste in Southeast Asia had the lowest debt
+
+
