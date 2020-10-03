@@ -13,6 +13,12 @@ WHERE country_name IN ('IDA only','Bosnia and Herzegovina', 'East Asia & Pacific
  'Europe & Central Asia (excluding high income)', 'Latin America & Caribbean (excluding high income)',
  'Middle East & North Africa (excluding high income)','Sub-Saharan Africa (excluding high income)');
 
+-- Removing repayment, payment, disbursements interested in debts owed
+DELETE FROM international_debt
+WHERE indicator_name LIKE ('%repayments%')
+OR indicator_name LIKE ('%payment%')
+OR indicator_name LIKE ('%Disbursements%');
+
 
 -- Group/Create new table with income
 -- Low & middle income, low income, lower middle income, middle income, upper iddle income
@@ -45,12 +51,8 @@ WHERE country_name IN ('Least developed countries: UN classification');
 
 
 -- TABLE: international_debt --
-
--- What are type of debts and number of occurence
-SELECT indicator_name, COUNT(indicator_name) AS number_of_debt_names FROM international_debt
-GROUP BY indicator_name
-HAVING COUNT(indicator_name) != 0
-ORDER BY number_of_debt_names DESC;
+-- Count of unique countries
+SELECT COUNT(DISTINCT country_name ) FROM international_debt
 
 
 -- Categorizing private and public debts
