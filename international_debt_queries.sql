@@ -27,10 +27,11 @@ WHERE country_name IN ('Low & middle income', 'Low income', 'Lower middle income
 DELETE FROM income_table
 WHERE country_name IN ('Low & middle income');
 
--- Removing repayment and payment, interested in debts not repayment
+-- Removing repayment, payment, disbursements interested in debts owed
 DELETE FROM income_table
 WHERE indicator_name LIKE ('%repayments%')
-AND indicator_name LIKE ('%payment%');
+AND indicator_name LIKE ('%payment%')
+AND indicator_name LIKE ('%Disbursements%');
 
 -- Create new table with 
 -- Least developed countries: UN classification
@@ -140,7 +141,7 @@ ORDER BY year_2019 DESC;
 
 -- For the top type of debt in 2019, where does each income level stand?
 SELECT country_name, year_2019 FROM income_table
-WHERE indicator_name = 'Principal repayments on external debt, long-term (AMT, current US$)'
+WHERE indicator_name = 'PPG, private creditors (AMT, current US$)'
 ORDER BY year_2019 DESC;
 
 -- Which income level has the highest debt? Lowest?
