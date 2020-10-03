@@ -23,3 +23,5 @@ with SQL queries and visualizing analysis with Tableau
 
 ![](https://github.com/diannejardinez/SQL-World-Bank-International-Debt/blob/master/images/Tableau-Map_country-debt.png)
 > Total Debt for each country
+
+## Analysis
