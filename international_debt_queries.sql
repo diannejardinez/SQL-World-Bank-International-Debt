@@ -23,12 +23,21 @@ WHERE country_name IN ('Low & middle income', 'Low income', 'Lower middle income
 DELETE FROM international_debt
 WHERE country_name IN ('Low & middle income', 'Low income', 'Lower middle income', 'Middle income', 'Upper middle income');
 
+-- Removing grouped incomes
+DELETE FROM income_table
+WHERE country_name IN ('Low & middle income');
+
+-- Removing repayment and payment, interested in debts not repayment
+DELETE FROM income_table
+WHERE indicator_name LIKE ('%repayments%')
+AND indicator_name LIKE ('%payment%');
 
 -- Create new table with 
 -- Least developed countries: UN classification
 SELECT * INTO least_developed
 FROM international_debt
 WHERE country_name IN ('Least developed countries: UN classification');
+
 
 DELETE FROM international_debt
 WHERE country_name IN ('Least developed countries: UN classification');
