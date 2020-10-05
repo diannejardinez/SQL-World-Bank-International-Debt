@@ -30,6 +30,13 @@ with SQL queries and visualizing analysis with Tableau
 - "PPG, Private Creditors (AMT, Current US$)" was the top type of debt owed with middle income being affected the most in 2019 - [PPG defined Source: The World Bank](https://datacatalog.worldbank.org/ppg-private-creditors-amt-current-us-0)
 - Middle Income Countries have per capita gross national income of US$1,026 to $12,475 (2011) - [Source: The World Bank](https://www.worldbank.org/en/country/mic/overview#:~:text=The%20world's%20Middle%20Income%20Countries,%244%2C046%20and%20%2412%2C535%20(2021))
 
+Income Level| Total Debt
+------------|-----------
+Middle income	| 24380791876998.594
+Upper middle income | 16784801480679.4
+Lower middle income | 7595990396319.201
+Low income | 737290715956.4001
+
 **Countries**
 > Only 122 countries in dataset out of 195 countries
 - "PPG, official creditors (DIS, current US$)" was the top type of debt owed in 2019 - [PPG Defined Source: The World Bank](https://datacatalog.worldbank.org/search?query=%20ppg-official-creditors-dis-current-us-1)
