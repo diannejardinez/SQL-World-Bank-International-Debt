@@ -25,7 +25,7 @@ with SQL queries and visualizing analysis with Tableau
 <!-- > Total Debt for each country -->
 
 ## SQL Analysis
-**Income Level**
+### Income Level
 > Income levels were Low income, lower middle income,  middle income, upper middle income
 
 **Cumulative debt(1970-2019)**
@@ -47,7 +47,7 @@ Low income | $737,290,715,956
 
 <br>
 
-**Countries**
+### Countries
 > Only 122 countries in dataset out of 195 countries
 
 **Cumulative debt(1970-2019)- Highest(left) and Lowest(right)**
