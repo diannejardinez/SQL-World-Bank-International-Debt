@@ -29,6 +29,7 @@ with SQL queries and visualizing analysis with Tableau
 > Income levels were Low income, lower middle income,  middle income, upper middle income
 
 **Cumulative debt(1970-2019)**
+- Total amount of debt for years between 1970-2019 ordered from highest to lowest. Middle income seems to be affected by debt the most. Data in this analysis only include debt owed. 
 
 Income Level| Total Debt
 ------------|-----------
@@ -38,7 +39,7 @@ Lower middle income | $7,595,990,396,319
 Low income | $737,290,715,956
 
 
-**2019**
+**Debt in 2019**
 - "PPG, Private Creditors (AMT, Current US$)" was the top type of debt owed with middle income being affected the most in 2019 - [PPG defined Source: The World Bank](https://datacatalog.worldbank.org/ppg-private-creditors-amt-current-us-0)
 - Middle Income Countries have per capita gross national income of US$1,026 to $12,475 (2011) - [Source: The World Bank](https://www.worldbank.org/en/country/mic/overview#:~:text=The%20world's%20Middle%20Income%20Countries,%244%2C046%20and%20%2412%2C535%20(2021))
 
