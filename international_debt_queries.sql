@@ -105,7 +105,7 @@ GROUP BY country_name
 ORDER BY total_debt DESC;
 
 
--- -- Which country has the highest debt? Lowest?
+-- -- Which 5 countries has the highest debt? Lowest?
 SELECT country_name, SUM(year_1970+year_1971+year_1972+year_1973+year_1974+year_1975+
 	year_1976+year_1977+year_1978+year_1979+year_1980+year_1981+year_1982+year_1983+
 	year_1984+year_1985+year_1986+year_1987+year_1988+year_1989+year_1990+year_1991+
@@ -116,7 +116,7 @@ SELECT country_name, SUM(year_1970+year_1971+year_1972+year_1973+year_1974+year_
 AS total_debt FROM international_debt
 GROUP BY country_name
 ORDER BY total_debt DESC
-LIMIT 1;
+LIMIT 5;
 
 
 SELECT country_name, SUM(year_1970+year_1971+year_1972+year_1973+year_1974+year_1975+
@@ -129,7 +129,7 @@ SELECT country_name, SUM(year_1970+year_1971+year_1972+year_1973+year_1974+year_
 AS total_debt FROM international_debt
 GROUP BY country_name
 ORDER BY total_debt 
-LIMIT 1;
+LIMIT 5;
 
 -- -- Find the highest debt in each county. Lowest?
 SELECT country_name, MAX(GREATEST(year_1970,year_1971,year_1972,year_1973,year_1974,year_1975,
