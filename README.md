@@ -53,7 +53,7 @@ Low income | $737,290,715,956
 **Cumulative debt(1970-2019)- Highest(left) and Lowest(right)**
 
 |Highest                 |
-------------
+------------|
 Country     | Total Debt | | Country     | Total Debt 
 ------------|------------|---|------------|------------
 Mexico	| $2,693,517,659,528 | |Timor-Leste | $478,566,792
