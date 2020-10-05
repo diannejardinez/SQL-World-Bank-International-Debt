@@ -50,11 +50,11 @@ Low income | $737,290,715,956
 **Countries**
 > Only 122 countries in dataset out of 195 countries
 
-**Cumulative debt(1970-2019)- Highest(left) and Lowest(right)**
+**Cumulative debt(1970-2019)- Highest(left) and Highest(right)**
 
-|Highest                 |
-------------|
-Country     | Total Debt | | Country     | Total Debt 
+Highest     |            |   | Highest    | 
+------------|------------|---|------------|------------
+Country     | Total Debt | | Country      | Total Debt 
 ------------|------------|---|------------|------------
 Mexico	| $2,693,517,659,528 | |Timor-Leste | $478,566,792
 Brazil | $23,08,169,887,203  | |Tonga | $787,956,693
