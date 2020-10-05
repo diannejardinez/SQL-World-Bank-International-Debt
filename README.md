@@ -50,7 +50,7 @@ Low income | $737,290,715,956
 **Countries**
 > Only 122 countries in dataset out of 195 countries
 
-**Cumulative debt(1970-2019)- Highest(left) and Highest(right)**
+**Cumulative debt(1970-2019)- Highest(left) and Lowest(right)**
 
 Country     | Total Debt |   | Country    | Total Debt 
 ------------|------------|---|------------|------------
