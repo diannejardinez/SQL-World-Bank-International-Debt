@@ -29,7 +29,7 @@ with SQL queries and visualizing analysis with Tableau
 > Income levels were Low income, lower middle income,  middle income, upper middle income
 
 **Cumulative debt(1970-2019)**
-- Total amount of debt for years between 1970-2019 ordered from highest to lowest. Middle income seems to be affected by debt the most. Data in this analysis only include debt owed. 
+- Middle income seems to be affected by debt the most. Data in this analysis only include debt owed. <small><i>Data in this analysis only include debt owed</i></small>
 
 Income Level| Total Debt
 ------------|-----------
