@@ -50,6 +50,20 @@ Low income | $737,290,715,956
 
 **Countries**
 > Only 122 countries in dataset out of 195 countries
+
+**Cumulative debt(1970-2019)**
+
+Country| Total Debt
+------------|-----------
+Mexico	| $2,693,517,659,528
+Brazil | $23,08,169,887,203
+Russian Federation | $1,888,043,770,594
+China | $1,874,705,646,018
+India | $1,874,705,646,018
+
+<br>
+
+**Debt in 2019**
 - "PPG, official creditors (DIS, current US$)" was the top type of debt owed in 2019 - [PPG Defined Source: The World Bank](https://datacatalog.worldbank.org/search?query=%20ppg-official-creditors-dis-current-us-1)
 - Mexico has the highest debt and Timor-Leste in Southeast Asia had the lowest debt
 
