@@ -39,7 +39,6 @@ Lower middle income | $7,595,990,396,319
 Low income | $737,290,715,956
 
 
-<br>
 
 **Debt in 2019**
 - "PPG, Private Creditors (AMT, Current US$)" was the top type of debt owed with middle income being affected the most in 2019 - [PPG defined Source: The World Bank](https://datacatalog.worldbank.org/ppg-private-creditors-amt-current-us-0)
@@ -61,7 +60,7 @@ Russian Federation | $1,888,043,770,594
 China | $1,874,705,646,018
 India | $1,874,705,646,018
 
-<br>
+
 
 **Debt in 2019**
 - "PPG, official creditors (DIS, current US$)" was the top type of debt owed in 2019 - [PPG Defined Source: The World Bank](https://datacatalog.worldbank.org/search?query=%20ppg-official-creditors-dis-current-us-1)
