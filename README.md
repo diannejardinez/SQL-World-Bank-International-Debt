@@ -54,7 +54,7 @@ Low income | $737,290,715,956
 
 Country     | Total Debt |   | Country    | Total Debt 
 ------------|------------|---|------------|------------
-Mexico	| $2,693,517,659,528 | |Timor-Leste | $478,566,792
+**Mexico**	| **$2,693,517,659,528** | |**Timor-Leste** | **$478,566,792**
 Brazil | $23,08,169,887,203  | |Tonga | $787,956,693
 Russian Federation | $1,888,043,770,594| |Solomon Islands | $972,143,346
 China | $1,874,705,646,018| |Comoros |$1,112,401,194
