@@ -33,7 +33,7 @@ with SQL queries and visualizing analysis with Tableau
 
 Income Level| Total Debt
 ------------|-----------
-Middle income	| $24,380,791,876,999
+**Middle income**	| **$24,380,791,876,999**
 Upper middle income | $16,784,801,480,679
 Lower middle income | $7,595,990,396,319
 Low income | $737,290,715,956
@@ -67,3 +67,5 @@ India | $1,874,705,646,018| |Vanuata | $1,160,499,566
 - Mexico has the highest debt and Timor-Leste in Southeast Asia had the lowest debt
 
 
+## Project Challenges
+- Loading phase of ETL: Connecting dataframe in Jupyter notebook to PostgreSQL with pgAdmin4
