@@ -69,5 +69,5 @@ India | $1,874,705,646,018| |Vanuata | $1,160,499,566
 
 ## Project Challenges
 - Loading phase of ETL: Connecting dataframe in Jupyter notebook to PostgreSQL with pgAdmin4
-- SQL queries data aggregation matching with Tableau Public data aggregation
+- SQL query data aggregation matching with Tableau Public data aggregation
 
